@@ -1,0 +1,37 @@
+# Audit output — may contain real member/revenue data
+output/
+reports/
+*.audit.txt
+*.audit.md
+
+# Environment & credentials
+.env
+.env.*
+*.env
+mcp-config.json
+mcp-credentials.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python (if using the optional general agents)
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Logs
+*.log
+logs/
